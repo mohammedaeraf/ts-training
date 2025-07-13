@@ -9,10 +9,10 @@ This repo is designed for learners and developers who want to **understand, prac
 
 typescript-learning/
 │
-├── 01\_notes/               # Markdown/HTML Notes for each topic
-├── 02\_code-demos/          # Code examples demonstrating TS features
-├── 03\_assignments/         # Assignments with and without solutions
-├── 04\_tests/               # MCQs and Output-based Questions
+├── notes/               # Markdown/HTML Notes for each topic
+├── demos/          # Code examples demonstrating TS features
+├── assignments/         # Assignments with and without solutions
+├── tests/               # MCQs and Output-based Questions
 ├── tsconfig.json           # TS compiler configuration
 └── README.md               # You are here
 
@@ -41,7 +41,7 @@ typescript-learning/
    ```bash
    git clone https://github.com/mohammedaeraf/ts-learning.git
    cd typescript-learning
-````
+    ```
 
 2. **Install TypeScript (if not already)**
 
@@ -59,9 +59,9 @@ typescript-learning/
 
 4. **Explore Notes & Assignments**
 
-   * 📄 Open `01_notes` for quick reference and revision.
-   * ✍️ Try out problems in `03_assignments` before looking at solutions.
-   * 🧠 Use `04_tests` for self-evaluation or quizzes.
+   * 📄 Open `notes` for quick reference and revision.
+   * ✍️ Try out problems in `assignments` before looking at solutions.
+   * 🧠 Use `tests` for self-evaluation or quizzes.
 
 ---
 
@@ -97,5 +97,3 @@ Feel free to use, modify, and share the content with attribution.
 ---
 
 Happy Learning! 🎉
-
-```

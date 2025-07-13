@@ -1,0 +1,77 @@
+# 📘 **Assignment 01**
+
+## 🎯 **Objective:**
+
+Practice the basics of TypeScript including:
+
+- Variables
+- Type Annotations
+- Functions
+- Arrays
+
+---
+
+## 📝 **Instructions:**
+
+- Create a file named `a01.ts`
+- Use `tsc a01.ts` to compile and test your code
+- Write clean, well-commented code for each problem
+
+---
+
+## 🔹 **Q1: Declare and initialize the following variables with appropriate types**
+
+- Your name
+- Your age
+- Whether you are a student
+
+> 📌 Example:
+
+```ts
+let myName: string = "Ali";
+let myAge: number = 22;
+// ...
+```
+
+---
+
+## 🔹 **Q2: Create a function `greetUser` that takes a `name` (string) and returns a greeting message**
+
+```ts
+function greetUser(name: string): string {
+  // your code
+}
+```
+
+Call the function with your name and log the output.
+
+---
+
+## 🔹 **Q3: Create an array of favorite colors (strings) and print each color using a loop**
+
+```ts
+let colors: string[] = ["Red", "Blue", "Green"];
+```
+
+---
+
+## 🔹 **Q4: Factorial Function**
+
+    - Write a TypeScript function that takes a number as input and returns its factorial.
+    - Example: `factorial(5)` should return `120`.
+    - Ensure the function handles the case where `n = 0` or `n = 1` correctly.
+    - Validate the input to ensure it's a positive integer.
+
+## 🔹 **Q5: Even Odd Checke Function**
+
+    - Write a function that checks if a given number is even or odd.
+    - Example: `isEven(7)` should return `false`, and `isEven(8)` should return `true`.
+    - Ensure the input is a positive integer.
+    - Return `true` for even numbers and `false` for odd numbers.
+
+## 🔹 **Q6: Sum of Array Elements**
+
+    - Write a function that takes an array of numbers and returns the sum of all elements in the array.
+    - Example: `sumArray([1, 2, 3, 4, 5])` should return `15`.
+    - Ensure the function works for arrays with any number of elements.
+    - Handle edge cases like empty arrays.

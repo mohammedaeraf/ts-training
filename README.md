@@ -9,39 +9,40 @@ This repo is designed for learners and developers who want to **understand, prac
 
 typescript-learning/
 │
-├── notes/               # Markdown/HTML Notes for each topic
-├── demos/          # Code examples demonstrating TS features
-├── assignments/         # Assignments with and without solutions
-├── tests/               # MCQs and Output-based Questions
-├── tsconfig.json           # TS compiler configuration
-└── README.md               # You are here
+├── notes/ # Markdown/HTML Notes for each topic
+├── demos/ # Code examples demonstrating TS features
+├── assignments/ # Assignments with and without solutions
+├── tests/ # MCQs and Output-based Questions
+├── tsconfig.json # TS compiler configuration
+└── README.md # You are here
 
 ---
 
 ## 🚀 Topics Covered
 
-| # | Topic |
-|--|-------|
-| ✅ | Introduction to TypeScript vs JavaScript |
-| ✅ | Installing and Configuring TypeScript |
-| ✅ | Types: Basic, Union, Intersection, Literal |
-| ✅ | Arrays, Tuples, and Enums |
-| ✅ | Type Aliases and Interfaces |
-| ✅ | Functions and Optional Parameters |
-| ✅ | Classes, Access Modifiers, and Readonly |
-| ✅ | Generics and Utility Types |
-| ✅ | Compilation and Configuration (`tsc`, `tsconfig.json`) |
-| ✅ | Real-world Use Cases and Patterns |
+| #   | Topic                                                  |
+| --- | ------------------------------------------------------ |
+| ✅  | Introduction to TypeScript vs JavaScript               |
+| ✅  | Installing and Configuring TypeScript                  |
+| ✅  | Types: Basic, Union, Intersection, Literal             |
+| ✅  | Arrays, Tuples, and Enums                              |
+| ✅  | Type Aliases and Interfaces                            |
+| ✅  | Functions and Optional Parameters                      |
+| ✅  | Classes, Access Modifiers, and Readonly                |
+| ✅  | Generics and Utility Types                             |
+| ✅  | Compilation and Configuration (`tsc`, `tsconfig.json`) |
+| ✅  | Real-world Use Cases and Patterns                      |
 
 ---
 
 ## 🧑‍💻 How to Use
 
 1. **Clone the Repo**
+
    ```bash
    git clone https://github.com/mohammedaeraf/ts-learning.git
    cd typescript-learning
-    ```
+   ```
 
 2. **Install TypeScript (if not already)**
 
@@ -59,18 +60,18 @@ typescript-learning/
 
 4. **Explore Notes & Assignments**
 
-   * 📄 Open `notes` for quick reference and revision.
-   * ✍️ Try out problems in `assignments` before looking at solutions.
-   * 🧠 Use `tests` for self-evaluation or quizzes.
+   - 📄 Open `notes` for quick reference and revision.
+   - ✍️ Try out problems in `assignments` before looking at solutions.
+   - 🧠 Use `tests` for self-evaluation or quizzes.
 
 ---
 
 ## 🧠 Who This Is For
 
-* 👨‍🎓 Students learning TypeScript
-* 👩‍🏫 Trainers and instructors
-* 👨‍💻 Frontend developers (especially Angular users)
-* 📦 Backend/Full Stack devs transitioning from JavaScript
+- 👨‍🎓 Students learning TypeScript
+- 👩‍🏫 Trainers and instructors
+- 👨‍💻 Frontend developers (especially Angular users)
+- 📦 Backend/Full Stack devs transitioning from JavaScript
 
 ---
 
@@ -83,7 +84,7 @@ If you want to add examples, solutions, or improve the notes, feel free to fork 
 
 ## 📧 Contact
 
-Maintained by **\[Your Name]**
+Maintained by **\[Mohammed Aeraf]**
 📬 Email: [aeraf@outlook.com](mailto:aeraf@outlook.com)
 🌐 Website / Portfolio: [mohammedaeraf.github.io](https://mohammedaeraf.github.io/profile)
 

@@ -6,6 +6,15 @@ function calculateArea(length, width) {
   return length * width;
 }
 
-console.log(calculateArea(5, 10)); // Valid usage: Outputs 50
-console.log(calculateArea(5, "10m"));  // NaN
-console.log(calculateArea(5)); // Error at runtime: Outputs NaN
+let area = calculateArea(5, 10);
+console.log(area); // Valid usage: Outputs 50
+
+area = calculateArea(5, "10m");
+console.log(area); // NaN
+
+area = calculateArea(5);
+console.log(area); // Error at runtime: Outputs NaN
+
+let fruits = ["apple", "banana", "mango"];
+fruits.push(20);
+console.log(fruits);

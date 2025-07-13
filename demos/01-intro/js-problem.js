@@ -1,5 +1,14 @@
+// Loosely typed language
+// Strongly typed language
+// int x = 10;
+// float pi = 3.142;
+// boolean isPrime = true;
+
+// Type Script
+
 let x = 10;
-x = "hello";
+
+x = "john";
 console.log(x * 10);
 
 function calculateArea(length, width) {
@@ -10,11 +19,12 @@ let area = calculateArea(5, 10);
 console.log(area); // Valid usage: Outputs 50
 
 area = calculateArea(5, "10m");
-console.log(area); // NaN
+console.log(area);
 
 area = calculateArea(5);
 console.log(area); // Error at runtime: Outputs NaN
 
-let fruits = ["apple", "banana", "mango"];
-fruits.push(20);
+let fruits = ["apple", "banana", "kiwi"];
+fruits.push("mango");
+fruits.push(125);
 console.log(fruits);

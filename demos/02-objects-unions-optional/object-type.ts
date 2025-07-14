@@ -4,9 +4,16 @@ type Student = {
   enrolled: boolean;
 };
 
-let s1: Student = {
+let student1: Student = {
   id: 1,
   name: "Usman",
   enrolled: true,
 };
-console.log(s1);
+
+let student2: Student = {
+  id: 2,
+  name: "Javed",
+  enrolled: false,
+};
+
+console.log(student1, student2);

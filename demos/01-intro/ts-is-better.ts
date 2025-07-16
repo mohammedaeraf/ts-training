@@ -1,5 +1,5 @@
 let x: number = 10;
-// x = "hello";
+x = "hello";
 
 let y = 20; // type inference
 // y = true;

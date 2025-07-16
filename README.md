@@ -24,12 +24,12 @@ typescript-learning/
 | --- | ------------------------------------------------------ |
 | ✅  | Introduction to TypeScript vs JavaScript               |
 | ✅  | Installing and Configuring TypeScript                  |
-| ✅  | Types: Basic, Union, Intersection, Literal             |
+| ✅  | Types: Basic, Union, Intersection                      |
 | ✅  | Arrays, Tuples, and Enums                              |
 | ✅  | Type Aliases and Interfaces                            |
+| ✅  | Optional Properties                                    |
 | ✅  | Functions and Optional Parameters                      |
-| ✅  | Classes, Access Modifiers, and Readonly                |
-| ✅  | Generics and Utility Types                             |
+| ✅  | Classes                                                |
 | ✅  | Compilation and Configuration (`tsc`, `tsconfig.json`) |
 | ✅  | Real-world Use Cases and Patterns                      |
 

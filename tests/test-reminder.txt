@@ -1,0 +1,17 @@
+*📢 Gentle Reminder*
+
+The *first test* for the *Frontend React Course* is scheduled for *Saturday, 19th July 2025 at 3:15 PM*.
+
+The test will consist of *two parts*:
+
+🔹 *Part 1:* Multiple Choice Questions (25 Questions)
+⏱️ Duration: 20 minutes
+Sample Test Questions 
+https://docs.google.com/forms/d/e/1FAIpQLSebpJlp3gsQOxyukNBSWRYRaUSdeGnNk8B0x7BjycQUbyOK5Q/viewform?usp=dialog
+
+🔹 *Part 2:* Programming Problems (1 in JavaScript & 1 in TypeScript)
+⏱️ Duration: 40 minutes
+
+Please ensure you’re well-prepared and join on time.
+*All the best!* 💪
+

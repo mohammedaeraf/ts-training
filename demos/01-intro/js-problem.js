@@ -1,11 +1,3 @@
-// Loosely typed language
-// Strongly typed language
-// int x = 10;
-// float pi = 3.142;
-// boolean isPrime = true;
-
-// Type Script
-
 let x = 10;
 
 x = "john";

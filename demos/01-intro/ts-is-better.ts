@@ -1,17 +1,34 @@
-let x: number = 10;
-x = "hello";
+let x: number = 100;
 
-let y = 20; // type inference
-// y = true;
+let title: string = "TypeScript is better than JavaScript";
+
+let isAdult: boolean = false;
+
+let isPrime: boolean = false;
+
+let deliveryCost: number = 0;
+
+if(isPrime) {
+  deliveryCost = 0;
+}
+else {
+  deliveryCost = 50;
+}
+// x = "hello";
+
+let y:number = 20.5; // type inference
+y = "Abdullaah";
+
+let isNew = true;
 
 function calcArea(length: number, breadth: number): number {
   let area: number = length * breadth;
   return area;
 }
 
-let rectArea: number = calcArea(4, 5);
-console.log(rectArea);
+let area: number = calcArea(4, 5);
+console.log(area);
 
-rectArea = calcArea(10, "20m");
+area = calcArea(10, "20m");
 
-rectArea = calcArea(20);
+area = calcArea(10);

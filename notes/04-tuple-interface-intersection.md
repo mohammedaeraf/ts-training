@@ -1,45 +1,6 @@
-# 📘 Enums, Tuples, Interfaces & Intersections in TypeScript
+# 📘 Tuples, Interfaces & Intersections in TypeScript
 
----
-
-## 🔶 1. Enums (Enumerations)
-
-Enums allow you to define a set of named constants. Useful for representing a group of related values (e.g., status, roles, directions).
-
-### ✅ Syntax:
-
-```ts
-enum Status {
-  Active,
-  Inactive,
-  Suspended,
-}
-
-let userStatus: Status = Status.Active;
-console.log(userStatus); // 0 (index of Active)
-```
-
-### ✅ Enum with Custom Values:
-
-```ts
-enum Role {
-  Admin = "ADMIN",
-  User = "USER",
-  Guest = "GUEST",
-}
-
-let currentRole: Role = Role.Admin;
-console.log(currentRole); // "ADMIN"
-```
-
-> 🔍 **Why use Enums?**
-
-- Improves code readability and consistency
-- Avoids magic strings or arbitrary numbers
-
----
-
-## 🟪 2. Tuples
+## 🟪 1. Tuples
 
 A **tuple** is a fixed-length array where each element can have a different type.
 
@@ -66,7 +27,7 @@ let person: [number, string, string?] = [101, "Ali"];
 
 ---
 
-## 🟩 3. Interfaces
+## 🟩 2. Interfaces
 
 Interfaces define the **structure of an object** — what properties and methods it should have.
 
@@ -109,7 +70,7 @@ const p1: Product = {
 
 ---
 
-## 🧩 4. Intersection Types
+## 🧩 3. Intersection Types
 
 Use **intersection (`&`)** when an object needs to satisfy **multiple types** at once.
 
@@ -146,16 +107,14 @@ const emp1: EmployeeProfile = {
 
 | Feature          | Use For                                                        |
 | ---------------- | -------------------------------------------------------------- |
-| **Enum**         | Grouping related constants (roles, statuses, etc.)             |
 | **Tuple**        | Fixed-size, ordered collections with different types           |
 | **Interface**    | Structuring object types with optional and required properties |
 | **Intersection** | Combining multiple types into one                              |
 
 ---
 
-## 💻 Practice Suggestions
+## 💻 Practice
 
-1. Create an `enum` for PaymentStatus with values like `Pending`, `Paid`, `Failed`
-2. Define a `tuple` for coordinates `[latitude: number, longitude: number]`
-3. Use `interface` to model a `Book` object
-4. Create two types: `Customer` and `BillingInfo` — combine them using intersection
+1. Define a `tuple` for coordinates `[latitude: number, longitude: number]`
+2. Use `interface` to model a `Book` object
+3. Create two types: `Customer` and `BillingInfo` — combine them using intersection
